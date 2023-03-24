@@ -1,10 +1,11 @@
 {
-  "name": "@mono/test-a",
-  "version": "1.0.0",
+  "name": "@monoase/test-a",
+  "version": "1.0.0--alpha.1",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --access public --registry https://registry.npmjs.org --no-git-checks"
   },
   "keywords": [],
   "author": "Mono",
