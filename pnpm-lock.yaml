@@ -1,0 +1,12 @@
+lockfileVersion: 5.4
+
+importers:
+
+  .:
+    specifiers: {}
+
+  packages/test-b:
+    specifiers:
+      '@monoase/test-a': workspace:^1.0.0
+    dependencies:
+      '@monoase/test-a': link:../test-a
